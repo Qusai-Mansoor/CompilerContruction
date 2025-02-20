@@ -1,0 +1,4 @@
+cond check = true;
+num a=2;
+deci b=0.123456
+char c='c'

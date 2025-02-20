@@ -1,0 +1,19 @@
+# Demo .iq Source File
+
+# Variable declarations (using our keywords)
+let x = 10;
+let y = 3.14159;
+let cond = true;
+let letter = 'a';
+
+# Function definition using 'fn' and 'when'
+fn add when(cond) { show x + y; };
+
+# Multi-line comment example (this should be ignored)
+## 
+This is a multi-line comment.
+It spans multiple lines and should be ignored.
+##
+
+# A loop example (using 'repeat')
+repeat (x) { show x; };
